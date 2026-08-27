@@ -32,4 +32,22 @@
 | Universitas Sumatera Utara → berlokasi di → Medan | Relasi | Menunjukkan hubungan universitas dengan lokasi |
 | Universitas Sumatera Utara → berada di negara → Indonesia | Relasi | Menunjukkan hubungan universitas dengan negara |
 
+## 3. Eksplorasi Schema.org
 
+| Property | Fungsi | Contoh Nilai |
+|---|---|---|
+| `name` | Menyatakan nama universitas | Universitas Sumatera Utara |
+| `address` | Menyatakan alamat universitas | Jl. Dr. T. Mansur No. 9, Padang Bulan, Medan, Sumatera Utara, Indonesia |
+| `foundingDate` | Menyatakan tanggal atau tahun berdirinya universitas | 1952-07-04 |
+| `url` | Menyatakan alamat website universitas | https://www.usu.ac.id/ |
+| `logo` | Menyatakan logo universitas | https://upload.wikimedia.org/wikipedia/commons/7/7a/University_of_north_sumatera_logo.jpg |
+| `email` | Menyatakan email universitas | info@usu.ac.id |
+| `telephone` | Menyatakan nomor telepon universitas | 0821-6888-9060 |
+| `alternateName` | Menyatakan nama atau singkatan lain universitas | USU |
+| `description` | Menyatakan deskripsi singkat mengenai universitas | Universitas Sumatera Utara merupakan perguruan tinggi negeri di Medan, Sumatera Utara |
+| `addressLocality` | Menyatakan kota tempat universitas berada | Medan |
+| `addressRegion` | Menyatakan provinsi tempat universitas berada | Sumatera Utara |
+| `postalCode` | Menyatakan kode pos alamat universitas | 20155 |
+| `addressCountry` | Menyatakan negara tempat universitas berada | Indonesia |
+| `event` | Menyatakan acara yang berkaitan dengan universitas | PKKMB USU 2026 |
+| `department` | Menyatakan departemen atau unit akademik universitas | Departemen Teknologi Informasi |
