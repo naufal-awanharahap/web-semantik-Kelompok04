@@ -32,6 +32,26 @@
 | Universitas Sumatera Utara → berlokasi di → Medan | Relasi | Menunjukkan hubungan universitas dengan lokasi |
 | Universitas Sumatera Utara → berada di negara → Indonesia | Relasi | Menunjukkan hubungan universitas dengan negara |
 
+3. Eksplorasi Schema.org
+| No. | Nama Properti       | Fungsi atau Maknanya                    | Contoh Nilai                                               |
+| --: | ------------------- | --------------------------------------- | ---------------------------------------------------------- |
+|   1 | **name**            | Nama resmi universitas                  | Universitas Sumatera Utara                                 |
+|   2 | **alternateName**   | Nama singkat atau singkatan             | USU                                                        |
+|   3 | **address**         | Alamat fisik universitas                | Jl. Dr. T. Mansur No. 9, Medan                             |
+|   4 | **telephone**       | Nomor telepon universitas               | 0821-6888-9060                                             |
+|   5 | **email**           | Email resmi universitas                 | [info@usu.ac.id](mailto:info@usu.ac.id)                    |
+|   6 | **url**             | Situs resmi universitas                 | [https://satu.usu.ac.id/home](https://satu.usu.ac.id/home) |
+|   7 | **logo**            | Logo resmi universitas                  | Logo USU                                                   |
+|   8 | **description**     | Deskripsi singkat universitas           | Perguruan tinggi negeri di Kota Medan                      |
+|   9 | **foundingDate**    | Tahun/tanggal berdirinya universitas    | 20 November 1957                                           |
+|  10 | **addressLocality** | Kota lokasi universitas                 | Medan                                                      |
+|  11 | **addressRegion**   | Provinsi lokasi universitas             | Sumatera Utara                                             |
+|  12 | **postalCode**      | Kode pos universitas                    | 20155                                                      |
+|  13 | **event**           | Acara yang berkaitan dengan universitas | PKKMB USU 2026                                             |
+|  14 | **department**      | Departemen/program/unit akademik        | Departemen Teknologi Informasi                             |
+|  15 | **alumni**          | Lulusan atau alumni universitas         | Alumni Universitas Sumatera Utara                          |
+
+
 
 
 
