@@ -22,4 +22,3 @@
 
 - ### Bukti Eksplorasi Wikidata
 
-![Wikidata Universitas Sumatera Utara](wikidata-usu.png)
