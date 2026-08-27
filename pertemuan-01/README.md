@@ -4,7 +4,7 @@
 |---|---|---|
 | 1 | Naufal Awan Harahap | 251402145 |
 | 2 | Felix Desselol Tambunan | 251402033 |
-| 3 | Cinta Pardame Sialoho | 251402090 |
+| 3 | Cinta Pardame Sihaloho | 251402090 |
 | 4 | Chris Martin | 251402116 |
 
 # Pertemuan 1 - Pengenalan Web Semantik
@@ -68,3 +68,6 @@ Jawaban: Hubungan antarentitas membuat informasi lebih terstruktur sehingga kete
 
 ### 5. Menurut Anda, bagaimana Knowledge Graph dapat membantu sistem pencarian atau AI dalam memahami informasi?
 Jawaban: Knowledge Graph membantu sistem pencarian dan AI memahami hubungan serta konteks antarentitas sehingga informasi yang diberikan dapat menjadi lebih relevan dan terstruktur.
+
+## 5. Bagaimana Knowledge Graph membantu AI?
+Knowledge Graph membantu sistem pencarian dan AI memahami informasi dengan menghubungkan berbagai entitas beserta hubungan di antaranya secara terstruktur. Dengan struktur tersebut, AI dapat mengenali konteks dan keterkaitan suatu informasi sehingga dapat menghasilkan pencarian, rekomendasi, atau jawaban yang lebih relevan. Contohnya, AI dapat memahami bahwa Universitas Sumatera Utara berlokasi di Medan, Medan berada di Sumatera Utara, dan Sumatera Utara berada di Indonesia, karena hubungan antarentitas tersebut direpresentasikan secara jelas dalam Knowledge Graph.
