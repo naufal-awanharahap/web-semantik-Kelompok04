@@ -20,5 +20,5 @@
 - Website: https://www.usu.ac.id/
 - Informasi lain: Memiliki singkatan USU
 
-- ### Bukti Eksplorasi Wikidata
+
 
