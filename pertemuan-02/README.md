@@ -13,6 +13,7 @@ File `profil_saya.xml` dibuat untuk menyimpan data profil mahasiswa dalam strukt
 | 3  | `<deskripsi>Saya suka AI & Web Semantik</deskripsi>` | Karakter `&` merupakan karakter khusus dalam XML sehingga tidak boleh ditulis secara langsung.  | Ubah menjadi `<deskripsi>Saya suka AI &amp; Web Semantik</deskripsi>` |
 
 ## 3. Analisis XML Schema
+```text
 Root element yang diizinkan: buku.
 Tipe data elemen judul: xs:string.
 Tipe data elemen tahun: xs:gYear.
