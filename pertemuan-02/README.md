@@ -18,3 +18,4 @@ Tipe data elemen judul: xs:string.
 Tipe data elemen tahun: xs:gYear.
 Tipe data elemen harga: xs:decimal.
 Atribut isbn wajib dituliskan karena pada XSD menggunakan use="required".
+```
