@@ -14,12 +14,8 @@ File `profil_saya.xml` dibuat untuk menyimpan data profil mahasiswa dalam strukt
 
 ## 3. Analisis XML Schema
 
-1. Root element: buku
-
-2. Tipe data judul: xs:string
-
-3. Tipe data tahun: xs:gYear
-
-4. Tipe data harga: xs:decimal
-
-5. Atribut ISBN: atribut ISBN tidak boleh tidak ditulis karena terdapat use="required" yang dimana atribut tersebut wajib untuk ditulis
+1. Root element yang diizinkan: `buku`.
+2. Tipe data elemen `judul`: `xs:string`.
+3. Tipe data elemen `tahun`: `xs:gYear`.
+4. Tipe data elemen `harga`: `xs:decimal`.
+5. Atribut `isbn` wajib dituliskan karena pada XSD menggunakan `use="required"`.
