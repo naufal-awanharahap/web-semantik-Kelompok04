@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Profil mahasiswa Kelompok 4 Web Semantik -->
+
+<profilMahasiswa>
+
+    <profil nim="251402145">
+        <nama>Naufal Awan Harahap</nama>
+        <angkatan>2024</angkatan>
+        <programStudi>Teknologi Informasi</programStudi>
+
+        <hobi>Menonton Film</hobi>
+        <hobi>Mendengarkan Musik</hobi>
+
+        <deskripsi>
+            Mahasiswa Teknologi Informasi yang sedang mempelajari Web Semantik.
+        </deskripsi>
+    </profil>
+
+    <profil nim="251402033">
+        <nama>Felix Desselol Tambunan</nama>
+        <angkatan>2024</angkatan>
+        <programStudi>Teknologi Informasi</programStudi>
+
+        <hobi>ISI HOBI FELIX</hobi>
+        <hobi>ISI HOBI FELIX</hobi>
+
+        <deskripsi>
+            Mahasiswa Teknologi Informasi yang sedang mempelajari Web Semantik.
+        </deskripsi>
+    </profil>
+
+    <profil nim="251402090">
+        <nama>Cinta Pardame Sialoho</nama>
+        <angkatan>2024</angkatan>
+        <programStudi>Teknologi Informasi</programStudi>
+
+        <hobi>ISI HOBI CINTA</hobi>
+        <hobi>ISI HOBI CINTA</hobi>
+
+        <deskripsi>
+            Mahasiswa Teknologi Informasi yang sedang mempelajari Web Semantik.
+        </deskripsi>
+    </profil>
+
+    <profil nim="251402116">
+        <nama>Chris Martin</nama>
+        <angkatan>2024</angkatan>
+        <programStudi>Teknologi Informasi</programStudi>
+
+        <hobi>ISI HOBI CHRIS</hobi>
+        <hobi>ISI HOBI CHRIS</hobi>
+
+        <deskripsi>
+            Mahasiswa Teknologi Informasi yang sedang mempelajari Web Semantik.
+        </deskripsi>
+    </profil>
+
+</profilMahasiswa>
