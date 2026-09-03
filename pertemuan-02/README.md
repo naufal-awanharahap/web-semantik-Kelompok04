@@ -13,10 +13,13 @@ File `profil_saya.xml` dibuat untuk menyimpan data profil mahasiswa dalam strukt
 | 3  | `<deskripsi>Saya suka AI & Web Semantik</deskripsi>` | Karakter `&` merupakan karakter khusus dalam XML sehingga tidak boleh ditulis secara langsung.  | Ubah menjadi `<deskripsi>Saya suka AI &amp; Web Semantik</deskripsi>` |
 
 ## 3. Analisis XML Schema
-```text
-Root element yang diizinkan: buku.
-Tipe data elemen judul: xs:string.
-Tipe data elemen tahun: xs:gYear.
-Tipe data elemen harga: xs:decimal.
-Atribut isbn wajib dituliskan karena pada XSD menggunakan use="required".
-```
+
+1. Root element: buku
+
+2. Tipe data judul: xs:string
+
+3. Tipe data tahun: xs:gYear
+
+4. Tipe data harga: xs:decimal
+
+5. Atribut ISBN: atribut ISBN tidak boleh tidak ditulis karena terdapat use="required" yang dimana atribut tersebut wajib untuk ditulis
