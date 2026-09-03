@@ -20,6 +20,13 @@ File `profil_saya.xml` dibuat untuk menyimpan data profil mahasiswa dalam strukt
 4. Tipe data elemen `harga`: `xs:decimal`.
 5. Atribut `isbn` wajib dituliskan karena pada XSD menggunakan `use="required"`.
 
+## 4. Analisis Namespace
+
+1. Kedua elemen `title` tidak dianggap sama karena berada pada namespace yang berbeda, yaitu namespace `buku` dan namespace `web`.
+2. Prefix `buku` dan `web` digunakan untuk membedakan elemen yang berasal dari namespace berbeda.
+3. Atribut `xmlns` digunakan untuk mendeklarasikan namespace XML.
+4. URI namespace tidak harus dapat dibuka sebagai halaman web. URI berfungsi sebagai identitas unik untuk membedakan namespace.
+
 ## 5. Pertanyaan Evaluasi
 
 1. **Apa perbedaan utama XML dan HTML?**  
