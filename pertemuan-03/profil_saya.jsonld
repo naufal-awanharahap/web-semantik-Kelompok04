@@ -1,1 +1,14 @@
-
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://usu.ac.id/mhs/251402145",
+  "name": "Naufal Awan Harahap",
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Universitas Sumatera Utara"
+  },
+  "knowsAbout": [
+    "Web Semantik",
+    "Teknologi Informasi"
+  ]
+}
