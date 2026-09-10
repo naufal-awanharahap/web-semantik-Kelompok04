@@ -9,7 +9,7 @@
 | 3 | Cinta Pardame Sialoho | 251402090 |
 | 4 | Chris Martin | 251402116 |
 
-## Struktur
+## Struktur Hasil
 
 ## 5. Hasil Validasi
 Schema Markup Validator: profil_saya.jsonld berhasil diperiksa dan struktur data dikenali sebagai Person tanpa kesalahan sintaks.
