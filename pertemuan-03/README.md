@@ -30,4 +30,4 @@ Isi JSON-LD harus sesuai dengan konten yang terlihat agar data terstruktur benar
 
 ![JSON-LD Playground](screenshots/profil-playground.png)
 
-![Rich Results Test](screenshots/seminar-rich-results.png)
+
