@@ -30,6 +30,6 @@ Isi JSON-LD harus sesuai dengan konten yang terlihat agar data terstruktur benar
 
 ![JSON-LD Playground](screenshots/profil-playground.png)
 
-https://github.com/naufal-awanharahap/web-semantik-Kelompok04/blob/main/pertemuan-03/screenshots/seminar-rich-results.png
+![Rich Results Test](screenshots/seminar-rich-results.png)
 
 
