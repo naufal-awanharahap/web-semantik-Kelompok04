@@ -10,7 +10,7 @@
     },
     "knowsAbout": [
       "Web Semantik",
-      "Teknologi Informasi"
+      "Matematika Diskrit"
     ]
   },
   {
@@ -23,8 +23,8 @@
       "name": "Universitas Sumatera Utara"
     },
     "knowsAbout": [
-      "Pemrograman Web",
-      "Basis Data"
+      "Manajemen Sistem Basis Data",
+      "Pemrograman Berorientasi Objek"
     ]
   },
   {
@@ -37,7 +37,7 @@
       "name": "Universitas Sumatera Utara"
     },
     "knowsAbout": [
-      "Sistem Informasi",
+      "Komunikasi Data dan Jaringan Komputer",
       "Web Semantik"
     ]
   },
@@ -51,8 +51,8 @@
       "name": "Universitas Sumatera Utara"
     },
     "knowsAbout": [
-      "Jaringan Komputer",
-      "Teknologi Informasi"
+      "Pemrograman Berorientasi Objek",
+      "Manajemen Sistem Basis Data"
     ]
   }
 ]
