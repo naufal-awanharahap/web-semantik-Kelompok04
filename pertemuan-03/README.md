@@ -11,12 +11,12 @@
 
 ## Struktur
 
-## 5. Hasil Validasi
+**5. Hasil Validasi**
 Schema Markup Validator: profil_saya.jsonld berhasil diperiksa dan struktur data dikenali sebagai Person tanpa kesalahan sintaks.
 Rich Results Test: seminar.html berhasil dikenali sebagai Event dan terdapat 1 item valid terdeteksi. Beberapa properti tambahan yang belum dicantumkan bersifat opsional.
 JSON-LD Playground: profil_saya.jsonld berhasil diproses menjadi data terstruktur dan dapat menghasilkan bentuk RDF/N-Quads.
 
-## 6. Refleksi
+**6. Refleksi**
 Mengapa @context disebut jembatan menuju makna?
 @context disebut jembatan menuju makna karena menghubungkan istilah yang digunakan dalam JSON-LD dengan kosakata yang memiliki arti tertentu, seperti Schema.org. Dengan demikian, mesin dapat memahami arti dari properti yang digunakan.
 Apa perbedaan fungsi Schema Markup Validator dan Rich Results Test?
