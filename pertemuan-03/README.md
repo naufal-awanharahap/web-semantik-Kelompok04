@@ -48,7 +48,7 @@
 | 2 | `'name': "Rina Anggraini"` | Sintaks JSON menggunakan tanda kutip ganda (`"`) untuk nama properti. | `"name": "Rina Anggraini"` |
 | 3 | `"birthDate": "12 September 2004"` | Nilai tanggal sebaiknya mengikuti format ISO 8601. | `"birthDate": "2004-09-12"` |
 | 4 | `"nomorInduk": "221401001"` | `nomorInduk` bukan properti Schema.org yang digunakan dalam latihan ini. | `"identifier": "221401001"` |
-| 5 | `"identifier": "221401001",` | Properti terakhir dalam objek JSON tidak boleh diakhiri dengan koma. | `"identifier": "221401001"` |
+| 5 | `"identifier": "221401001"` | Properti terakhir dalam objek JSON tidak boleh diakhiri dengan koma. | `"identifier": "221401001"` |
 
 ## 4. Triple dari JSON-LD Playground
 
