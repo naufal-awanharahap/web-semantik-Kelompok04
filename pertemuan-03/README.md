@@ -79,7 +79,7 @@ Salah satu baris N-Quads yang terbentuk:
 
 ### Schema Markup Validator
 
-![Rich Results Test](screenshots/seminar-rich-results.png)
+
 
 ### JSON-LD Playground
 
