@@ -10,3 +10,8 @@
 | 4 | Chris Martin | 251402116 |
 
 ## Struktur
+
+** 5. Hasil Validasi
+Schema Markup Validator: profil_saya.jsonld berhasil diperiksa dan struktur data dikenali sebagai Person tanpa kesalahan sintaks.
+Rich Results Test: seminar.html berhasil dikenali sebagai Event dan terdapat 1 item valid terdeteksi. Beberapa properti tambahan yang belum dicantumkan bersifat opsional.
+JSON-LD Playground: profil_saya.jsonld berhasil diproses menjadi data terstruktur dan dapat menghasilkan bentuk RDF/N-Quads.
