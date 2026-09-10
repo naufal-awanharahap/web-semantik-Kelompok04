@@ -23,3 +23,11 @@ Apa perbedaan fungsi Schema Markup Validator dan Rich Results Test?
 Schema Markup Validator digunakan untuk memeriksa apakah struktur dan properti data terstruktur sudah sesuai dengan kosakata Schema.org. Sedangkan Rich Results Test digunakan untuk memeriksa apakah data terstruktur pada halaman memenuhi persyaratan Google untuk menghasilkan fitur rich results pada hasil pencarian.
 Mengapa isi JSON-LD harus sama dengan konten yang terlihat pada halaman?
 Isi JSON-LD harus sesuai dengan konten yang terlihat agar data terstruktur benar-benar menggambarkan informasi pada halaman. Jika berbeda, data dapat menjadi tidak konsisten dan berpotensi memberikan informasi yang menyesatkan kepada mesin pencari.
+
+## Bukti
+
+![Schema Markup Validator](screenshots/profil-schema-validator.png)
+
+![JSON-LD Playground](screenshots/profil-playground.png)
+
+![Rich Results Test](screenshots/seminar-rich-results.png)
