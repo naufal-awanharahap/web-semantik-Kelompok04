@@ -2,10 +2,10 @@
 
 ## Identitas sumber
 
-- **Judul:** Pencarian Tugas Akhir dengan Ontologi dan Boyer-Moore (Studi Kasus: Jurusan Teknik Informatika UNSRI)
-- **Pembuat:** Desty Rodiah, Yunita, dan Novi Yusliani
-- **URI sumber:** https://generic.ilkom.unsri.ac.id/index.php/generic/article/view/140
-- **Jenis sumber:** Artikel jurnal
-- **Deskripsi:** Artikel ini membahas pencarian data tugas akhir mahasiswa dengan menggunakan ontologi, RDF, SPARQL, dan algoritma Boyer-Moore.
-- **Tanggal:** 2023-01-31
+- **Judul:** Penerapan SPARQL dan Ontology pada Pencarian Data Buku dan Perbandingannya dengan Pendekatan Relasional
+- **Pembuat:** Nibras Syihabil Haq dan Kemas Muslim Lhaksmana
+- **URI sumber:** https://openlibrarypublications.telkomuniversity.ac.id/index.php/engineering/id/article/view/6718
+- **Jenis sumber:** Artikel ilmiah
+- **Deskripsi:** Artikel ini membahas penerapan ontologi, RDF, dan SPARQL dalam pencarian data buku serta membandingkannya dengan pendekatan relasional.
+- **Tanggal:** 2018-08-01
 - **Bahasa:** id
