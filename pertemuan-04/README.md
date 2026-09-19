@@ -2,11 +2,10 @@
 
 ## Identitas sumber
 
-- **Judul:** Evolusi Penggunaan Teknologi Web 3.0: Semantic Web
-- **Pembuat:** Himawan, Trinugi Wira Harjanti, Ruli Supriati, dan Hari Setiyani
-- **URI sumber:** https://jurnal.istts.ac.id/index.php/insight/article/view/107
+- **Judul:** Pencarian Tugas Akhir dengan Ontologi dan Boyer-Moore (Studi Kasus: Jurusan Teknik Informatika UNSRI)
+- **Pembuat:** Desty Rodiah, Yunita, dan Novi Yusliani
+- **URI sumber:** https://generic.ilkom.unsri.ac.id/index.php/generic/article/view/140
 - **Jenis sumber:** Artikel jurnal
-- **Deskripsi:** Artikel ini membahas perkembangan Web 3.0 atau Semantic Web serta teknologi yang digunakan di dalamnya, seperti RDF, SPARQL, dan Web Ontology.
-- **Tanggal:** 2020-11-16
+- **Deskripsi:** Artikel ini membahas pencarian data tugas akhir mahasiswa dengan menggunakan ontologi, RDF, SPARQL, dan algoritma Boyer-Moore.
+- **Tanggal:** 2023-01-31
 - **Bahasa:** id
-- **Hak:** Creative Commons Attribution 4.0 International License
