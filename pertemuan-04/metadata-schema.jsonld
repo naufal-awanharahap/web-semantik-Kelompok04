@@ -2,10 +2,10 @@
   "@context": "https://schema.org",
   "@type": "ScholarlyArticle",
   "@id": "https://jurnal.istts.ac.id/index.php/insight/article/view/107",
-  "headline": "Evolusi Penggunaan Teknologi Web 3.0 : Semantic Web",
-  "author": "Himawan; Trinugi Wira Harjanti; Ruli Supriati; Hari Setiyani",
+  "name": "Evolusi Penggunaan Teknologi Web 3.0 : Semantic Web",
   "description": "Artikel ilmiah yang membahas perkembangan Web 3.0 atau Semantic Web serta teknologi RDF, SPARQL, dan Web Ontology.",
-  "datePublished": "2020-11-16",
   "inLanguage": "id",
+  "datePublished": "2020-11-16",
+  "author": "Himawan; Trinugi Wira Harjanti; Ruli Supriati; Hari Setiyani",
   "sameAs": "https://doi.org/10.37823/insight.v2i02.107"
 }
