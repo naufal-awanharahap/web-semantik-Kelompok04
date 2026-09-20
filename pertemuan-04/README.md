@@ -14,3 +14,13 @@ Identitas sumber
 
 ## Pemetaan Dublin Core Terms
 
+## Validasi
+
+Validasi dilakukan untuk memastikan metadata dapat dibaca dan diproses menggunakan format yang sesuai.
+
+### JSON-LD Playground
+
+File `metadata-sumber.jsonld` divalidasi menggunakan JSON-LD Playground.
+
+Hasil validasi didokumentasikan dalam:
+
