@@ -1,11 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://jurnal.istts.ac.id/index.php/insight/article/view/107>
-    dcterms:title "Evolusi Penggunaan Teknologi Web 3.0: Semantic Web"@id ;
-    dcterms:creator "Himawan; Trinugi Wira Harjanti; Ruli Supriati; Hari Setiyani"@id ;
-    dcterms:description "Artikel ilmiah yang membahas perkembangan Web 3.0 atau Semantic Web serta teknologi RDF, SPARQL, dan Web Ontology."@id ;
-    dcterms:created "2020-11-16"^^xsd:date ;
-    dcterms:type "Artikel jurnal" ;
-    dcterms:language "id" ;
-    dcterms:rights "Hak Cipta Penulis"@id .
+<https://www.w3.org/events/talks/2009/introduction-to-the-semantic-web-2/>
+    dcterms:title "Introduction to the Semantic Web (tutorial)" ;
+    dcterms:creator "Ivan Herman" ;
+    dcterms:description "Tutorial yang memberikan pengantar mengenai teknologi dasar Semantic Web yang dikembangkan oleh W3C, termasuk RDF, RDF Schema, SPARQL, OWL, OWL 2, dan RIF." ;
+    dcterms:created "2009-10-30"^^xsd:date ;
+    dcterms:type "LearningResource" ;
+    dcterms:language "en" ;
+    dcterms:rights "W3C" ;
+    dcterms:identifier <https://www.w3.org/events/talks/2009/introduction-to-the-semantic-web-2/> .
