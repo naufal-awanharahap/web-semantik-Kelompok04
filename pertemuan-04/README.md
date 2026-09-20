@@ -46,3 +46,8 @@ DC Terms digunakan untuk mendeskripsikan metadata sumber seperti judul, pembuat,
 ### Sebutkan satu risiko jika metadata HTML, Turtle, dan JSON-LD tidak konsisten.
 
 Jika metadata HTML, Turtle, dan JSON-LD tidak konsisten, informasi yang diterima oleh sistem dapat berbeda, misalnya judul atau pembuat tidak sama. Hal tersebut dapat menyebabkan sumber sulit dikenali atau dihubungkan dengan benar.
+
+## Catatan akhir
+
+Metadata pada HTML, Turtle, dan JSON-LD disusun dengan menggunakan URI sumber yang sama serta informasi utama yang konsisten, seperti judul, pembuat, deskripsi, tanggal, bahasa, dan hak. Perbedaan format dan vocabulary tetap digunakan sesuai fungsi masing-masing sehingga metadata dapat mendukung interoperabilitas antar sistem.
+
