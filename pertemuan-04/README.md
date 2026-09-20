@@ -14,13 +14,10 @@ Identitas sumber
 
 ## Pemetaan Dublin Core Terms
 
-## Validasi
-
-Validasi dilakukan untuk memastikan metadata dapat dibaca dan diproses menggunakan format yang sesuai.
+## Hasil validasi
 
 ### JSON-LD Playground
+File `metadata-sumber.jsonld` diuji menggunakan JSON-LD Playground untuk memastikan struktur JSON-LD dapat diproses dan direpresentasikan dalam bentuk RDF. URI subjek dan properti metadata disusun berdasarkan pemetaan Dublin Core Terms.
 
-File `metadata-sumber.jsonld` divalidasi menggunakan JSON-LD Playground.
-
-Hasil validasi didokumentasikan dalam:
-
+### Schema Markup Validator
+File `metadata-schema.jsonld` diuji menggunakan Schema Markup Validator untuk memastikan metadata menggunakan vocabulary Schema.org dan dapat diproses sebagai data terstruktur.
