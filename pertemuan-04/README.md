@@ -1,5 +1,9 @@
 # Pertemuan 4 — Metadata dan Interoperabilitas
 
+## Tautan Repository
+
+https://github.com/naufal-awnharahap/web-semantik-Kelompok04/tree/main/pertemuan-04
+
 ## Identitas sumber
 
 * **Judul:** Introduction to the Semantic Web (tutorial)
