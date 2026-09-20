@@ -1,1 +1,40 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "title": "dcterms:title",
+    "creator": "dcterms:creator",
+    "description": "dcterms:description",
+    "created": {
+      "@id": "dcterms:created",
+      "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "type": "dcterms:type",
+    "language": "dcterms:language",
+    "rights": "dcterms:rights"
+  },
 
+  "@id": "https://jurnal.istts.ac.id/index.php/insight/article/view/107",
+
+  "title": {
+    "@value": "Evolusi Penggunaan Teknologi Web 3.0: Semantic Web",
+    "@language": "id"
+  },
+
+  "creator": {
+    "@value": "Himawan; Trinugi Wira Harjanti; Ruli Supriati; Hari Setiyani",
+    "@language": "id"
+  },
+
+  "description": {
+    "@value": "Artikel ini membahas karakteristik Web 3.0 atau Semantic Web, termasuk teknologi RDF, SPARQL, dan Web Ontology serta contoh implementasi dan cara kerja Web 3.0.",
+    "@language": "id"
+  },
+
+  "created": "2020-11-16",
+
+  "type": "Artikel jurnal",
+
+  "language": "id",
+
+  "rights": "CC BY 4.0"
+}
