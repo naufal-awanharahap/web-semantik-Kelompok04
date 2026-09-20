@@ -1,11 +1,10 @@
 {
   "@context": "https://schema.org",
-  "@type": "ScholarlyArticle",
-  "@id": "https://jurnal.istts.ac.id/index.php/insight/article/view/107",
-  "name": "Evolusi Penggunaan Teknologi Web 3.0 : Semantic Web",
-  "description": "Artikel ilmiah yang membahas perkembangan Web 3.0 atau Semantic Web serta teknologi RDF, SPARQL, dan Web Ontology.",
-  "inLanguage": "id",
-  "datePublished": "2020-11-16",
-  "author": "Himawan; Trinugi Wira Harjanti; Ruli Supriati; Hari Setiyani",
-  "sameAs": "https://doi.org/10.37823/insight.v2i02.107"
+  "@type": "LearningResource",
+  "@id": "https://www.w3.org/events/talks/2009/introduction-to-the-semantic-web-2/",
+  "name": "Introduction to the Semantic Web (tutorial)",
+  "description": "Tutorial pengantar tentang Semantic Web yang membahas RDF, RDF Schema, SPARQL, OWL, dan OWL 2.",
+  "inLanguage": "en",
+  "dateCreated": "2009-10-30",
+  "license": "W3C"
 }
