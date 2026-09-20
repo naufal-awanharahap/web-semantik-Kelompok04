@@ -3,8 +3,8 @@
   "@type": "LearningResource",
   "@id": "https://www.w3.org/events/talks/2009/introduction-to-the-semantic-web-2/",
   "name": "Introduction to the Semantic Web (tutorial)",
-  "description": "Tutorial pengantar tentang Semantic Web yang membahas RDF, RDF Schema, SPARQL, OWL, dan OWL 2.",
+  "description": "Tutorial pengantar tentang Semantic Web yang membahas RDF, RDF Schema, SPARQL, OWL, OWL 2, dan RIF.",
   "inLanguage": "en",
   "dateCreated": "2009-10-30",
-  "license": "W3C"
+  "license": "https://www.w3.org/copyright/document-license/"
 }
