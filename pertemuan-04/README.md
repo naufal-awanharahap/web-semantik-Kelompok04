@@ -2,59 +2,52 @@
 
 ## Identitas sumber
 
-* **Judul:** Klasifikasi Topik Skripsi Berdasarkan Makna dengan Pendekatan Semantik Web
-* **Pembuat:** Aditya Pradana dan Randy Ridwansyah
-* **URI sumber:** https://www.jurnal.pcr.ac.id/index.php/jkt/id/article/view/4603
-* **Jenis sumber:** Text (Artikel jurnal)
-* **Deskripsi:** Artikel ilmiah yang membahas klasifikasi topik skripsi berdasarkan makna menggunakan pendekatan Semantik Web, dengan penerapan ontologi, RDF, dan SPARQL.
-* **Tanggal:** 2021-05-31
-* **Bahasa:** id
-* **Hak:** Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
-* **DOI:** 10.35143/jkt.v7i1.4603
+* **Judul:** A Semantic Web Primer for Object-Oriented Software Developers
+* **Pembuat:** Holger Knublauch, Daniel Oberle, Phil Tetlow, dan Evan Wallace
+* **URI sumber:** https://www.w3.org/TR/sw-oosd-primer/
+* **Jenis sumber:** LearningResource
+* **Deskripsi:** Materi pengantar yang membahas teknologi Semantic Web, khususnya RDF Schema dan OWL, serta penggunaannya bersama bahasa pemrograman berorientasi objek.
+* **Tanggal:** 2006-03-09
+* **Bahasa:** en
+* **Hak:** Copyright © 2006 W3C
 
 ## Pemetaan Dublin Core Terms
 
-| Properti              | Nilai                                                                                                                                                     | Alasan pemilihan                                                                                 |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| `dcterms:title`       | Klasifikasi Topik Skripsi Berdasarkan Makna dengan Pendekatan Semantik Web                                                                                | Digunakan untuk menunjukkan judul resmi artikel sehingga sumber dapat dikenali dengan jelas.     |
-| `dcterms:creator`     | Aditya Pradana dan Randy Ridwansyah                                                                                                                       | Digunakan untuk menunjukkan penulis atau pembuat artikel.                                        |
-| `dcterms:description` | Artikel ilmiah yang membahas klasifikasi topik skripsi berdasarkan makna menggunakan pendekatan Semantik Web, dengan penerapan ontologi, RDF, dan SPARQL. | Digunakan untuk memberikan gambaran singkat mengenai isi dan topik utama artikel.                |
-| `dcterms:created`     | 2021-05-31                                                                                                                                                | Digunakan untuk mencatat tanggal publikasi artikel dalam format ISO 8601.                        |
-| `dcterms:type`        | Text                                                                                                                                                      | Digunakan untuk menunjukkan bahwa sumber merupakan dokumen teks berupa artikel jurnal.           |
-| `dcterms:language`    | id                                                                                                                                                        | Digunakan untuk menunjukkan bahwa bahasa utama artikel adalah bahasa Indonesia.                  |
-| `dcterms:rights`      | Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)                                                                 | Digunakan untuk memberikan informasi mengenai hak dan lisensi penggunaan sumber.                 |
-| `dcterms:identifier`  | 10.35143/jkt.v7i1.4603                                                                                                                                    | Digunakan sebagai identitas DOI yang dapat digunakan untuk mengidentifikasi artikel secara unik. |
-| `dcterms:source`      | https://www.jurnal.pcr.ac.id/index.php/jkt/id/article/view/4603                                                                                           | Digunakan untuk menunjukkan halaman resmi tempat artikel diterbitkan.                            |
+| Properti              | Nilai                                                                                                                                                   | Alasan pemilihan                                                                |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| `dcterms:title`       | A Semantic Web Primer for Object-Oriented Software Developers                                                                                           | Digunakan untuk menunjukkan judul resmi sumber.                                 |
+| `dcterms:creator`     | Holger Knublauch, Daniel Oberle, Phil Tetlow, dan Evan Wallace                                                                                          | Digunakan untuk menunjukkan pihak yang menyusun sumber.                         |
+| `dcterms:description` | Materi pengantar yang membahas teknologi Semantic Web, khususnya RDF Schema dan OWL, serta penggunaannya bersama bahasa pemrograman berorientasi objek. | Digunakan untuk memberikan gambaran singkat mengenai isi sumber.                |
+| `dcterms:created`     | 2006-03-09                                                                                                                                              | Digunakan untuk mencatat tanggal sumber dalam format ISO 8601.                  |
+| `dcterms:type`        | LearningResource                                                                                                                                        | Digunakan untuk menunjukkan bahwa sumber digunakan sebagai materi pembelajaran. |
+| `dcterms:language`    | en                                                                                                                                                      | Digunakan untuk menunjukkan bahwa sumber menggunakan bahasa Inggris.            |
+| `dcterms:rights`      | Copyright © 2006 W3C                                                                                                                                    | Digunakan untuk memberikan informasi mengenai hak atas sumber.                  |
+| `dcterms:identifier`  | https://www.w3.org/TR/sw-oosd-primer/                                                                                                                   | Digunakan sebagai URI yang mengidentifikasi sumber secara stabil.               |
 
-## Hasil Validasi
+## Hasil validasi
 
 ### JSON-LD Playground
 
-File `metadata-sumber.jsonld` diuji menggunakan JSON-LD Playground untuk memastikan struktur JSON-LD dapat diproses dan metadata dapat direpresentasikan dalam bentuk RDF. Pengujian juga digunakan untuk memastikan URI subjek dan properti metadata sesuai dengan pemetaan Dublin Core Terms.
-
-**Hasil:** Struktur JSON-LD dapat diproses dan metadata dapat direpresentasikan dalam bentuk RDF.
+File `metadata-sumber.jsonld` diuji menggunakan JSON-LD Playground untuk memastikan struktur JSON-LD dapat diproses dan direpresentasikan dalam bentuk RDF. URI subjek dan properti metadata disusun berdasarkan pemetaan Dublin Core Terms.
 
 ### Schema Markup Validator
 
-File `metadata-schema.jsonld` diuji menggunakan Schema Markup Validator untuk memeriksa struktur data terstruktur yang menggunakan vocabulary Schema.org.
-
-**Hasil:** Struktur JSON-LD menggunakan vocabulary Schema.org dan dapat diproses oleh validator.
+File `metadata-schema.jsonld` diuji menggunakan Schema Markup Validator untuk memastikan metadata menggunakan vocabulary Schema.org dan dapat diproses sebagai data terstruktur.
 
 ## Refleksi
 
-### 1. Mengapa URI yang sama penting untuk Turtle dan JSON-LD?
+### Mengapa URI yang sama penting untuk Turtle dan JSON-LD?
 
-URI yang sama digunakan agar metadata dalam format Turtle dan JSON-LD merujuk pada sumber yang sama. Dengan demikian, kedua format dapat dikenali sebagai representasi metadata dari satu resource yang sama.
+URI yang sama digunakan agar metadata dalam format Turtle dan JSON-LD merujuk pada sumber yang sama. Dengan demikian, kedua format tersebut dapat dikenali sebagai representasi metadata dari satu sumber.
 
-### 2. Apa perbedaan peran DC Terms dan schema.org pada pekerjaan ini?
+### Apa perbedaan peran DC Terms dan schema.org pada pekerjaan ini?
 
-Dublin Core Terms digunakan untuk mendeskripsikan metadata sumber secara umum, seperti judul, pembuat, deskripsi, tanggal, jenis, bahasa, dan hak. Sementara itu, Schema.org digunakan untuk merepresentasikan informasi dalam vocabulary yang dapat dipahami oleh aplikasi dan mesin pada web.
+DC Terms digunakan untuk mendeskripsikan metadata sumber seperti judul, pembuat, deskripsi, tanggal, bahasa, dan hak. Sementara itu, Schema.org digunakan untuk memberikan struktur metadata dengan vocabulary yang berbeda sehingga dapat diproses oleh aplikasi dan sistem web.
 
-### 3. Sebutkan satu risiko jika metadata HTML, Turtle, dan JSON-LD tidak konsisten.
+### Sebutkan satu risiko jika metadata HTML, Turtle, dan JSON-LD tidak konsisten.
 
-Jika metadata HTML, Turtle, dan JSON-LD tidak konsisten, informasi mengenai sumber dapat berbeda antarformat. Misalnya, judul atau nama pembuat berbeda sehingga sistem dapat mengalami kesulitan dalam mengenali bahwa metadata tersebut merujuk pada sumber yang sama.
+Jika metadata HTML, Turtle, dan JSON-LD tidak konsisten, informasi yang diterima oleh sistem dapat berbeda, misalnya judul atau pembuat tidak sama. Hal tersebut dapat menyebabkan sumber sulit dikenali atau dihubungkan dengan benar.
 
-## Catatan Akhir
+## Catatan akhir
 
-Metadata pada HTML, Turtle, dan JSON-LD disusun berdasarkan sumber artikel jurnal yang sama dan menggunakan URI sumber yang konsisten. Informasi utama seperti judul, pembuat, deskripsi, tanggal, bahasa, jenis, DOI, dan hak disusun secara konsisten pada setiap format. Perbedaan format dan vocabulary digunakan sesuai dengan fungsi masing-masing sehingga metadata dapat dipertukarkan dan mendukung interoperabilitas antar sistem.
-
+Metadata pada HTML, Turtle, dan JSON-LD disusun dengan menggunakan URI sumber yang sama serta informasi utama yang konsisten, seperti judul, pembuat, deskripsi, tanggal, bahasa, dan hak. Perbedaan format dan vocabulary tetap digunakan sesuai fungsi masing-masing sehingga metadata dapat mendukung interoperabilitas antar sistem.
