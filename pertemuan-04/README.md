@@ -2,27 +2,27 @@
 
 ## Identitas sumber
 
-* **Judul:** A Semantic Web Primer for Object-Oriented Software Developers
-* **Pembuat:** Holger Knublauch, Daniel Oberle, Phil Tetlow, dan Evan Wallace
-* **URI sumber:** https://www.w3.org/TR/sw-oosd-primer/
+* **Judul:** Introduction to the Semantic Web (tutorial)
+* **Pembuat:** Ivan Herman
+* **URI sumber:** https://www.w3.org/events/talks/2009/introduction-to-the-semantic-web-2/
 * **Jenis sumber:** LearningResource
-* **Deskripsi:** Materi pengantar yang membahas teknologi Semantic Web, khususnya RDF Schema dan OWL, serta penggunaannya bersama bahasa pemrograman berorientasi objek.
-* **Tanggal:** 2006-03-09
+* **Deskripsi:** Tutorial yang memberikan pengantar mengenai teknologi dasar Semantic Web yang dikembangkan oleh W3C, termasuk RDF, RDF Schema, SPARQL, OWL, OWL 2, dan RIF.
+* **Tanggal:** 2009-10-30
 * **Bahasa:** en
-* **Hak:** Copyright © 2006 W3C
+* **Hak:** W3C
 
 ## Pemetaan Dublin Core Terms
 
-| Properti              | Nilai                                                                                                                                                   | Alasan pemilihan                                                                |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| `dcterms:title`       | A Semantic Web Primer for Object-Oriented Software Developers                                                                                           | Digunakan untuk menunjukkan judul resmi sumber.                                 |
-| `dcterms:creator`     | Holger Knublauch, Daniel Oberle, Phil Tetlow, dan Evan Wallace                                                                                          | Digunakan untuk menunjukkan pihak yang menyusun sumber.                         |
-| `dcterms:description` | Materi pengantar yang membahas teknologi Semantic Web, khususnya RDF Schema dan OWL, serta penggunaannya bersama bahasa pemrograman berorientasi objek. | Digunakan untuk memberikan gambaran singkat mengenai isi sumber.                |
-| `dcterms:created`     | 2006-03-09                                                                                                                                              | Digunakan untuk mencatat tanggal sumber dalam format ISO 8601.                  |
-| `dcterms:type`        | LearningResource                                                                                                                                        | Digunakan untuk menunjukkan bahwa sumber digunakan sebagai materi pembelajaran. |
-| `dcterms:language`    | en                                                                                                                                                      | Digunakan untuk menunjukkan bahwa sumber menggunakan bahasa Inggris.            |
-| `dcterms:rights`      | Copyright © 2006 W3C                                                                                                                                    | Digunakan untuk memberikan informasi mengenai hak atas sumber.                  |
-| `dcterms:identifier`  | https://www.w3.org/TR/sw-oosd-primer/                                                                                                                   | Digunakan sebagai URI yang mengidentifikasi sumber secara stabil.               |
+| Properti              | Nilai                                                                                                                                                       | Alasan pemilihan                                                                        |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| `dcterms:title`       | Introduction to the Semantic Web (tutorial)                                                                                                                 | Digunakan untuk menunjukkan judul sumber agar dapat dikenali dengan jelas.              |
+| `dcterms:creator`     | Ivan Herman                                                                                                                                                 | Digunakan untuk menunjukkan pembicara atau pembuat materi tutorial.                     |
+| `dcterms:description` | Tutorial yang memberikan pengantar mengenai teknologi dasar Semantic Web yang dikembangkan oleh W3C, termasuk RDF, RDF Schema, SPARQL, OWL, OWL 2, dan RIF. | Digunakan untuk memberikan gambaran singkat mengenai isi sumber.                        |
+| `dcterms:created`     | 2009-10-30                                                                                                                                                  | Digunakan untuk mencatat tanggal tutorial dalam format ISO 8601.                        |
+| `dcterms:type`        | LearningResource                                                                                                                                            | Digunakan untuk menunjukkan bahwa sumber merupakan materi pembelajaran berupa tutorial. |
+| `dcterms:language`    | en                                                                                                                                                          | Digunakan untuk menunjukkan bahwa sumber menggunakan bahasa Inggris.                    |
+| `dcterms:rights`      | W3C                                                                                                                                                         | Digunakan untuk memberikan informasi mengenai pihak yang menyediakan sumber.            |
+| `dcterms:identifier`  | https://www.w3.org/events/talks/2009/introduction-to-the-semantic-web-2/                                                                                    | Digunakan sebagai URI yang mengidentifikasi sumber secara stabil.                       |
 
 ## Hasil validasi
 
@@ -42,7 +42,7 @@ URI yang sama digunakan agar metadata dalam format Turtle dan JSON-LD merujuk pa
 
 ### Apa perbedaan peran DC Terms dan schema.org pada pekerjaan ini?
 
-DC Terms digunakan untuk mendeskripsikan metadata sumber seperti judul, pembuat, deskripsi, tanggal, bahasa, dan hak. Sementara itu, Schema.org digunakan untuk memberikan struktur metadata dengan vocabulary yang berbeda sehingga dapat diproses oleh aplikasi dan sistem web.
+DC Terms digunakan untuk mendeskripsikan metadata sumber seperti judul, pembuat, deskripsi, tanggal, bahasa, jenis, dan hak. Sementara itu, Schema.org digunakan untuk memberikan struktur metadata dengan vocabulary yang berbeda sehingga dapat diproses oleh aplikasi dan sistem web.
 
 ### Sebutkan satu risiko jika metadata HTML, Turtle, dan JSON-LD tidak konsisten.
 
