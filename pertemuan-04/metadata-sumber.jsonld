@@ -1,18 +1,25 @@
 {
   "@context": {
-    "dcterms": "http://purl.org/dc/terms/"
+    "dcterms": "http://purl.org/dc/terms/",
+    "title": "dcterms:title",
+    "creator": "dcterms:creator",
+    "description": "dcterms:description",
+    "created": {
+      "@id": "dcterms:created",
+      "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "type": "dcterms:type",
+    "language": "dcterms:language",
+    "rights": "dcterms:rights",
+    "identifier": "dcterms:identifier"
   },
   "@id": "https://www.w3.org/events/talks/2009/introduction-to-the-semantic-web-2/",
-  "@type": "dcterms:LearningResource",
-  "dcterms:title": "Introduction to the Semantic Web (tutorial)",
-  "dcterms:creator": "Ivan Herman",
-  "dcterms:description": "Tutorial yang memberikan pengantar mengenai teknologi dasar Semantic Web yang dikembangkan oleh W3C, termasuk RDF, RDF Schema, SPARQL, OWL, OWL 2, dan RIF.",
-  "dcterms:created": {
-    "@value": "2009-10-30",
-    "@type": "http://www.w3.org/2001/XMLSchema#date"
-  },
-  "dcterms:type": "LearningResource",
-  "dcterms:language": "en",
-  "dcterms:rights": "W3C",
-  "dcterms:identifier": "https://www.w3.org/events/talks/2009/introduction-to-the-semantic-web-2/"
+  "title": "Introduction to the Semantic Web (tutorial)",
+  "creator": "Ivan Herman",
+  "description": "Tutorial yang memberikan pengantar mengenai teknologi dasar Semantic Web yang dikembangkan oleh W3C, termasuk RDF, RDF Schema, SPARQL, OWL, OWL 2, dan RIF.",
+  "created": "2009-10-30",
+  "type": "LearningResource",
+  "language": "en",
+  "rights": "W3C",
+  "identifier": "https://www.w3.org/events/talks/2009/introduction-to-the-semantic-web-2/"
 }
