@@ -1,1 +1,11 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
 
+<https://openlibrarypublications.telkomuniversity.ac.id/index.php/engineering/id/article/view/6718>
+    dcterms:title "Penerapan SPARQL dan Ontology pada Pencarian Data Buku dan Perbandingannya dengan Pendekatan Relasional"@id ;
+    dcterms:creator "Nibras Syihabil Haq dan Kemas Muslim Lhaksamana"@id ;
+    dcterms:description "Artikel ilmiah yang membahas penerapan ontologi, RDF, dan SPARQL dalam pencarian data buku serta membandingkannya dengan pendekatan relasional."@id ;
+    dcterms:created "2018-08-01"^^xsd:date ;
+    dcterms:type "Artikel ilmiah" ;
+    dcterms:language "id" ;
+    dcterms:rights "Hak Cipta Penulis"@id .
