@@ -9,6 +9,7 @@ Identitas sumber
 - Deskripsi: Artikel ilmiah yang membahas perkembangan Web 3.0 atau Semantic Web serta teknologi RDF, SPARQL, dan Web Ontology.
 - Tanggal: 2020-11-16
 - Bahasa: id
+- Jenis sumber: Text (Artikel jurnal)
 - Hak: Hak Cipta Penulis
 - DOI: 10.37823/insight.v2i02.107
 
