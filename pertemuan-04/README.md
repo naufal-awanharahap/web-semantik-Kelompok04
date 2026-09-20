@@ -9,7 +9,7 @@
 - **Deskripsi:** Artikel ini membahas penerapan ontologi, RDF, dan SPARQL dalam pencarian data buku serta membandingkannya dengan pendekatan relasional.
 - **Tanggal:** 2018-08-01
 - **Bahasa:** id
-- **Hak:** Hak cipta milik penulis dan penerbit eProceedings of Engineering
+- **Hak:** Hak Cipta Penulis
 
 ## Pemetaan Dublin Core Terms
 
