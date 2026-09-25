@@ -1,74 +1,114 @@
-@prefix : <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#> .
-@prefix kampus: <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#> .
+@prefix : <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus##> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#> .
 
-: a owl:Ontology .
+<https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#> rdf:type owl:Ontology .
 
-### Object Properties
+#################################################################
+#    Object Properties
+#################################################################
 
-:belongsToDepartment a owl:ObjectProperty ;
-    rdfs:domain :Person ;
-    rdfs:range :Department .
+###  https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#belongsToDepartment
+<https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#belongsToDepartment> rdf:type owl:ObjectProperty ;
+                                                                                                  rdfs:domain <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Person> ;
+                                                                                                  rdfs:range <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Department> .
 
-:takesCourse a owl:ObjectProperty ;
-    rdfs:subPropertyOf owl:topObjectProperty ;
-    rdfs:domain :Student ;
-    rdfs:range :Course .
 
-:teachesCourse a owl:ObjectProperty ;
-    rdfs:domain :Lecturer ;
-    rdfs:range :Course .
+###  https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#takesCourse
+<https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#takesCourse> rdf:type owl:ObjectProperty ;
+                                                                                          rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                                          rdfs:domain <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Student> ;
+                                                                                          rdfs:range <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Course> .
 
-### Data Properties
 
-:hasNIM a owl:DatatypeProperty ;
-    rdfs:domain :Student ;
-    rdfs:range xsd:string .
+###  https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#teachesCourse
+<https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#teachesCourse> rdf:type owl:ObjectProperty ;
+                                                                                            rdfs:domain <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Lecturer> ;
+                                                                                            rdfs:range <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Course> .
 
-:hasName a owl:DatatypeProperty ;
-    rdfs:subPropertyOf :hasNIM ;
-    rdfs:domain :Person ;
-    rdfs:range xsd:string .
 
-### Classes
+#################################################################
+#    Data properties
+#################################################################
 
-:Course a owl:Class .
+###  https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#hasNIM
+<https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#hasNIM> rdf:type owl:DatatypeProperty ;
+                                                                                     rdfs:domain <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Student> ;
+                                                                                     rdfs:range xsd:string .
 
-:Department a owl:Class .
 
-:Lecturer a owl:Class ;
-    rdfs:subClassOf :Person ;
-    owl:disjointWith :Student .
+###  https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#hasName
+<https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#hasName> rdf:type owl:DatatypeProperty ;
+                                                                                      rdfs:domain <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Person> ;
+                                                                                      rdfs:range xsd:string .
 
-:Person a owl:Class .
 
-:Student a owl:Class ;
-    rdfs:subClassOf :Person .
+#################################################################
+#    Classes
+#################################################################
 
-### Individuals
+###  https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Course
+<https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Course> rdf:type owl:Class .
 
-:CintaPardameSialoho a owl:NamedIndividual ;
-    rdf:type :Lecturer ;
-    :teachesCourse :WebSemantik ;
-    :hasName "Cinta Pardame Sialoho" .
 
-:FelixDesseloTambunan a owl:NamedIndividual ;
-    rdf:type :Student ;
-    :takesCourse :WebSemantik ;
-    :hasNIM 251402033 ;
-    :hasName "Felix Desselo Tambunan" .
+###  https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Department
+<https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Department> rdf:type owl:Class .
 
-:NaufalAwan a owl:NamedIndividual ;
-    rdf:type :Student ;
-    :takesCourse :WebSemantik ;
-    :hasNIM 251402145 ;
-    :hasName "Naufal Awan" .
 
-:TeknikInformatika a owl:NamedIndividual ;
-    rdf:type :Department .
+###  https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Lecturer
+<https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Lecturer> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Person> ;
+                                                                                       owl:disjointWith <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Student> .
 
-:WebSemantik a owl:NamedIndividual ;
-    rdf:type :Course .
+
+###  https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Person
+<https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Person> rdf:type owl:Class .
+
+
+###  https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Student
+<https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Student> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Person> .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#CintaPardameSialoho
+<https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#CintaPardameSialoho> rdf:type owl:NamedIndividual ,
+                                                                                                           <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Lecturer> ;
+                                                                                                  <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#teachesCourse> <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#WebSemantik> ;
+                                                                                                  <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#hasName> "Cinta Pardame Sialoho" .
+
+
+###  https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#FelixDesseloTambunan
+<https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#FelixDesseloTambunan> rdf:type owl:NamedIndividual ,
+                                                                                                            <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Student> ;
+                                                                                                   <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#takesCourse> <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#WebSemantik> ;
+                                                                                                   <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#hasNIM> "251402033"^^xsd:string ;
+                                                                                                   <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#hasName> "Felix Desselo Tambunan" .
+
+
+###  https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#NaufalAwan
+<https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#NaufalAwan> rdf:type owl:NamedIndividual ,
+                                                                                                  <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Student> ;
+                                                                                         <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#takesCourse> <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#WebSemantik> ;
+                                                                                         <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#hasNIM> "251402145"^^xsd:string ;
+                                                                                         <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#hasName> "Naufal Awan" .
+
+
+###  https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#TeknikInformatika
+<https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#TeknikInformatika> rdf:type owl:NamedIndividual ,
+                                                                                                         <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Department> .
+
+
+###  https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#WebSemantik
+<https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#WebSemantik> rdf:type owl:NamedIndividual ,
+                                                                                                   <https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Course> .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
