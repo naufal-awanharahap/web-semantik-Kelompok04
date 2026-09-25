@@ -73,7 +73,6 @@
     <!-- https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#hasName -->
 
     <owl:DatatypeProperty rdf:about="https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#hasName">
-        <rdfs:subPropertyOf rdf:resource="https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#hasNIM"/>
         <rdfs:domain rdf:resource="https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
@@ -152,7 +151,7 @@
     <owl:NamedIndividual rdf:about="https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#FelixDesseloTambunan">
         <rdf:type rdf:resource="https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Student"/>
         <takesCourse rdf:resource="https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#WebSemantik"/>
-        <hasNIM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">251402033</hasNIM>
+        <hasNIM rdf:datatype="http://www.w3.org/2001/XMLSchema#string">251402033</hasNIM>
         <hasName>Felix Desselo Tambunan</hasName>
     </owl:NamedIndividual>
     
@@ -163,7 +162,7 @@
     <owl:NamedIndividual rdf:about="https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#NaufalAwan">
         <rdf:type rdf:resource="https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#Student"/>
         <takesCourse rdf:resource="https://naufal-awnharahap.github.io/web-semantik-Kelompok04/ontology/kampus#WebSemantik"/>
-        <hasNIM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">251402145</hasNIM>
+        <hasNIM rdf:datatype="http://www.w3.org/2001/XMLSchema#string">251402145</hasNIM>
         <hasName>Naufal Awan</hasName>
     </owl:NamedIndividual>
     
