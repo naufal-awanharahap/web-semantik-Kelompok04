@@ -46,7 +46,7 @@
 ### Cek diri
 | Pernyataan | Bukti dari tugas ini |
 |------------|----------------------|
-| 1 | [isi] |
+| 1 | [CONSTRUCT mencetak template sekali per solution dan menggabungkan triple kembar.] | [Bagian A: terdapat tiga pola template. LIMIT 10 memiliki batas atas 30 triple, tetapi triple kembar hanya dihitung satu kali.]
 | 2 | [isi] |
 | 3 | [isi] |
 | 4 | [isi] |
