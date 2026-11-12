@@ -18,11 +18,18 @@
   Karena query CONSTRUCT mengubah tipe film menjadi schema:Movie, bukan dbo:Film. Oleh karena itu, pencarian menggunakan dbo:Film tidak menemukan triple yang sesuai dan menghasilkan 0.
 
 ## Bagian C - Materialisasi
-- Output demo_d.py: [isi]
-- Mengapa Ada Rina bernilai 3: [jawaban]
-- Output materialisasi_ulang.py: [isi]
-- Tiga triple yang bukan baru: [jawaban]
-- Kegunaan kampus_turunan.ttl dan langkah manual yang tersisa: [jawaban]
+- Output demo_d.py: [3]
+- Mengapa Ada Rina bernilai 3:
+  Karena proses materialisasi hanya dilakukan sebelum Rina ditambahkan. Setelah Rina dimasukkan sebagai ex:DosenTetap, aturan CONSTRUCT tidak dijalankan kembali. Akibatnya, tipe turunan foaf:Person untuk Rina belum terbentuk. Query hanya menemukan tiga individu yang sudah dimaterialisasi sebelumnya.
+- Output materialisasi_ulang.py:
+  Putaran 1: 4 triple baru | Person: 3
+Rina masuk | Person: 3
+Putaran 2 | Person: 4
+Triple turunan disimpan terpisah: 6
+- Tiga triple yang bukan baru: 
+  Tiga triple tersebut merupakan triple hasil inferensi yang sudah terdapat dalam graf awal. Property path a/rdfs:subClassOf* juga menghasilkan hubungan dengan jalur nol langkah karena tanda * memungkinkan suatu kelas menjadi superclass dari dirinya sendiri. Oleh sebab itu, hasil CONSTRUCT dapat mencakup triple yang sudah ada.
+- Kegunaan kampus_turunan.ttl dan langkah manual yang tersisa:
+  File kampus_turunan.ttl digunakan untuk menyimpan triple hasil inferensi secara terpisah dari data asli. Jika hubungan subclass berubah, triple hasil inferensi dapat diperiksa dan dibandingkan dengan aturan terbaru. Langkah manual yang masih diperlukan adalah memperbarui aturan, menjalankan ulang materialisasi, memeriksa hasilnya, dan mengganti triple turunan yang sudah tidak sesuai.
 
 ## Bagian D - Diagnosis
 | Query | Hasil mesin | Gejala | Penyebab (baris yang salah) | Hasil setelah diperbaiki |
