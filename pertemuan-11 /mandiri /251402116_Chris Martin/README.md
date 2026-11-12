@@ -8,7 +8,7 @@
   Karena terdapat tiga pola triple dalam template CONSTRUCT. Setiap solution dapat menghasilkan maksimal tiga triple. Dengan LIMIT 10, batas maksimalnya adalah 30 triple. Namun, jumlah sebenarnya dapat lebih sedikit karena triple yang sama hanya disimpan satu kali dalam RDF Graph.
 
 ## Bagian B - DBpedia ke Turtle
-- Output demo_c.py: [12] triple, film tanpa tanggal: [isi]
+- Output demo_c.py: [12] triple, film tanpa tanggal: [sesuai query lokal]
 - Sumber data: DBpedia / data contoh film.ttl
 - Triple yang tetap tercetak untuk film tanpa tanggal:
   Triple schema:Movie, schema:name, dan schema:director tetap tercetak. Sementara itu, schema:datePublished tidak tercetak karena film tersebut tidak mempunyai tanggal rilis. Hal ini terjadi karena tanggal rilis menggunakan OPTIONAL sehingga tidak wajib ditemukan.
