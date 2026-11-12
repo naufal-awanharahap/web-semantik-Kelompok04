@@ -8,11 +8,14 @@
   Karena terdapat tiga pola triple dalam template CONSTRUCT. Setiap solution dapat menghasilkan maksimal tiga triple. Dengan LIMIT 10, batas maksimalnya adalah 30 triple. Namun, jumlah sebenarnya dapat lebih sedikit karena triple yang sama hanya disimpan satu kali dalam RDF Graph.
 
 ## Bagian B - DBpedia ke Turtle
-- Output demo_c.py: [isi] triple, film tanpa tanggal: [isi]
+- Output demo_c.py: [12] triple, film tanpa tanggal: [isi]
 - Sumber data: DBpedia / data contoh film.ttl
-- Triple yang tetap tercetak untuk film tanpa tanggal: [jawaban]
-- Query lokal tanpa internet: [jawaban]
-- Mengapa dbo:Film memberi 0 pada film_nolan.ttl: [jawaban]
+- Triple yang tetap tercetak untuk film tanpa tanggal:
+  Triple schema:Movie, schema:name, dan schema:director tetap tercetak. Sementara itu, schema:datePublished tidak tercetak karena film tersebut tidak mempunyai tanggal rilis. Hal ini terjadi karena tanggal rilis menggunakan OPTIONAL sehingga tidak wajib ditemukan.
+- Query lokal tanpa internet:
+  Query lokal dapat dijalankan tanpa internet karena data sudah disimpan dalam file film_nolan.ttl. RDFLib membaca data dari file lokal sehingga tidak perlu menghubungi DBpedia lagi. Namun, apabila seluruh demo_c.py dijalankan ulang tanpa internet, pengambilan data dari endpoint DBpedia akan gagal.
+- Mengapa dbo:Film memberi 0 pada film_nolan.ttl:
+  Karena query CONSTRUCT mengubah tipe film menjadi schema:Movie, bukan dbo:Film. Oleh karena itu, pencarian menggunakan dbo:Film tidak menemukan triple yang sesuai dan menghasilkan 0.
 
 ## Bagian C - Materialisasi
 - Output demo_d.py: [isi]
