@@ -1,10 +1,11 @@
 # Pertemuan 11 - Tugas Mandiri: Dari Endpoint ke Graf Lokal
 
 ## Bagian A - LIMIT dan triple
-- Triple dengan LIMIT 10: [isi]
-- Triple dengan LIMIT 30: [isi]
-- Baris SELECT LIMIT 10 / kota berbeda: [isi] / [isi]
-- Mengapa tidak (atau mengapa tepat) 30 triple: [jawaban]
+- Triple dengan LIMIT 10: [30]
+- Triple dengan LIMIT 30: [90]
+- Baris SELECT LIMIT 10 / kota berbeda: [10] / [10]
+- Mengapa tidak (atau mengapa tepat) 30 triple:
+  Karena terdapat tiga pola triple dalam template CONSTRUCT. Setiap solution dapat menghasilkan maksimal tiga triple. Dengan LIMIT 10, batas maksimalnya adalah 30 triple. Namun, jumlah sebenarnya dapat lebih sedikit karena triple yang sama hanya disimpan satu kali dalam RDF Graph.
 
 ## Bagian B - DBpedia ke Turtle
 - Output demo_c.py: [isi] triple, film tanpa tanggal: [isi]
