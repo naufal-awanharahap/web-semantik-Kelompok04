@@ -34,9 +34,9 @@ Triple turunan disimpan terpisah: 6
 ## Bagian D - Diagnosis
 | Query | Hasil mesin | Gejala | Penyebab (baris yang salah) | Hasil setelah diperbaiki |
 |-------|-------------|--------|-----------------------------|--------------------------|
-| rusak_a | [isi] | [isi] | [isi] | [isi] |
-| rusak_b | [isi] | [isi] | [isi] | [isi] |
-| rusak_c | [isi] | [isi] | [isi] | [isi] |
+| rusak_a | 	0 triple | Graf kosong | Template menggunakan ?film, sedangkan WHERE menggunakan ?f. Variabel ?film tidak terikat | 3 triple judul film Nolan |
+| rusak_b | Lebih dari 3 triple | Satu orang dapat mempunyai beberapa nilai nama | Property path mengambil nama dari beberapa predikat sekaligus. | 3 triple, satu nama per orang |
+| rusak_c | Hanya menemukan tipe langsung |Superkelas tidak ditemukan | WHERE hanya mencari ?x a ex:Permukiman dan tidak menelusuri subclass | 3 triple: Medan, Surabaya, Tomok |
 
 ## Bagian E - Etika dan diskusi
 | Aturan | a_kota_limit.rq | demo_c.py |
